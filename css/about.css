@@ -158,6 +158,16 @@ right: -1%;
      .team__member p{
           margin-bottom: 1.5rem;
      }
+
+
+     .team__member-social{
+          position: absolute;
+          top: 30%;
+          right: -100%;
+         
+     }
+     
+    
 }
 
 

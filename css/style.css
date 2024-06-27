@@ -135,12 +135,17 @@ nav button{
 /* -------------header----------------- */
 
 .header__right-image img{
-     border-radius: 30px;
-     box-sizing: border-box;
+     border-radius: 18px;
+     background-size: contain;
+     /* box-sizing: border-box; */
      width: 480px;
-     height: 400px;
-     padding: 20px 8px;
+     height: 440px;
+     background-position: center;
+     background-size: contain;
+     /* padding: 20px 8px; */
 }
+
+
 
 
 header{
@@ -154,7 +159,7 @@ margin-bottom: 5rem;
      display: grid;
      grid-template-columns: 1fr 1fr;
      align-items: center;
-     gap: 5rem;
+     gap: 12rem;
      height: 100%;
 }
 .header__left p{

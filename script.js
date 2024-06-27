@@ -8,14 +8,15 @@ window.addEventListener("scroll",()=>{
 // ----------show/hide faq Answer
 
 let faqs=document.querySelectorAll(".faq")
+let icon=document.querySelectorAll(".faq__icon ")
+
 let torn=true;
 
 faqs.forEach(faq=>{
      faq.addEventListener("click",()=>{
           faq.classList.toggle("open")
 
-          //change icon
-          const icon=document.querySelector(".faq__icon ")
+          // change icon 
           if (torn===true) {
                icon.innerHTML='<img src="minus.svg" alt="">'
                torn=false;
@@ -23,6 +24,7 @@ faqs.forEach(faq=>{
                icon.innerHTML='<img src="plus.svg" alt="">'
                torn=true;
           }
+
          
      })
 })
